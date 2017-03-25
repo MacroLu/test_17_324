@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color: #4c4242;
+    height:106px;
+}
+
+nav {
+    position:absolute;
+    top:80px;
+    right:10px;
+}
+
+nav li{
+    display:inline;
+    padding:20px;
+}
+
+nav a:link,nav a:visited{
+    color:black;
+    text-decoration:none;
+}
+
+main{
+    width: 70%;
+}
+article {
+    background-color:#eee;
+    width: auto;
+    margin:20px;
+    padding:20px;
+    border-right: 2px solid #999;
+    border-bottom: 2px solid #999;
+    overflow:hidden;
+}
+
+article a:visited {
+    color: blue;
+}
+h2 {
+    font-size:18px;
+    color:#968c8c;
+}
+
+h3 {
+    font-size:13px;
+    color:#bba5a5;
+}
+
+article p {
+    margin:5px;
+    text-indent:2em;
+}
+
+article .img{
+    border:1px solid white;
+    margin:10px;
+    padding: 10px;
+    width:110px;
+    height:160px;
+    float:left;
+    overflow:hidden;
+}
+
+article table {
+    width:100%;
+    border-collapse:collapse;
+}
+
+article th {
+    background-color:black;
+    color:white;
+}
+
+article .last {
+    background-color:white;
+}
+
+aside {
+    top:106px;
+    width:25%;
+    border:1px;
+    position:absolute;
+    right:0;
+    background-color:#eee;
+    margin:20px;
+    padding:20px;
+    overflow:hidden;
+}
+
+aside table{
+    width:100%;
+    margin: 0 auto;
+}
+
+aside td{
+    height:30px;
+}
+
+aside .aside_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    font-style: italic;
+    border-left: 2px solid #999;
+    height: 50px;
+}
+
+aside .tips{
+    font-size:12px;
+    color:#bba5a5;
+}
+
+aside .submit{
+    margin:0 40px;
+    padding:10px;
+    width:80%;
+    text-align:center;
+    border-radius:10px;
+    background-color:#4040f5;
+    color:white;
+}
+
+footer {
+    background-color: #4c4242;
+    height:54px;
+}
+
+footer p{
+    font-family:宋体;
+    color: white;
+    font-size: 80%;
+    text-align: center;
+    padding: 20px;
+}
+
